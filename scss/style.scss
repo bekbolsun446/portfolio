@@ -293,7 +293,7 @@ h1, h2, h3, h4, h5,
 
 		.navbar-toggler {
 			border: none;
-			color: rgba(0,0,0,.5)!important;
+			color: rgba(0,0,0,.5);
 			border-color: rgba(0,0,0,.5)!important;
 			cursor: pointer;
 			text-transform: uppercase;
@@ -1985,4 +1985,10 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
+}
+
+
+
+.navbar-toggler {
+	color: rgba(255,255,255,.5)!important;
 }
